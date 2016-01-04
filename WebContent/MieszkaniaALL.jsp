@@ -21,7 +21,6 @@
 
 	<script type="text/javascript" src="js/paging.js"></script>
 
-
   </head>
   <body>
   
@@ -130,7 +129,7 @@
     </div>
     
     <script type="text/javascript"><!--
-        var pager = new Pager('mytable', 10); 
+        var pager = new Pager('mytable', 4); 
         pager.init(); 
         pager.showPageNav('pager', 'pageNavPosition'); 
         pager.showPage(1);
